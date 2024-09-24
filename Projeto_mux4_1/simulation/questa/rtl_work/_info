@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Win10/Documents/Projetos_Quartus/Projeto_mux4_1/simulation/questa
+Emux4_1
+Z1 w1713892451
+!i122 0
+R0
+Z2 8C:/Users/Win10/Documents/Projetos_Quartus/Projeto_mux4_1/mux4_1.vhd
+Z3 FC:/Users/Win10/Documents/Projetos_Quartus/Projeto_mux4_1/mux4_1.vhd
+l0
+L3 1
+VmOZhiKCE<J0<m:0z5eAjR3
+!s100 UQ^;c]c:iP:f^nf79W7Bh2
+Z4 OV;C;2020.1;71
+31
+Z5 !s110 1713892508
+!i10b 1
+Z6 !s108 1713892507.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|C:/Users/Win10/Documents/Projetos_Quartus/Projeto_mux4_1/mux4_1.vhd|
+!s107 C:/Users/Win10/Documents/Projetos_Quartus/Projeto_mux4_1/mux4_1.vhd|
+!i113 1
+Z8 o-93 -work work
+Z9 tExplicit 1 CvgOpt 0
+Amain
+DEx4 work 6 mux4_1 0 22 mOZhiKCE<J0<m:0z5eAjR3
+!i122 0
+l15
+L11 13
+VFV;8]J_:_EdPPd_abNQV<3
+!s100 85jJQJRI`<A?lmozgn9bd2
+R4
+31
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 C:/Users/Win10/Documents/Projetos_Quartus/Projeto_mux4_1/mux4_1.vhd|
+!i113 1
+R8
+R9
