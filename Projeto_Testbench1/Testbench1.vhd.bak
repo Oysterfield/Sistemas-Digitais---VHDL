@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity hello_tb is 
+end entity;
+
+architecture sim of hello_tb is
+
+    signal rst, clk : std_logic := '0';
+
+begin
+    
+	 process is
+    begin
+        report "Hello World!";
+        wait;
+    end process;
+
+    clk <= not clk after 100 ns;
+    rst <= '0',
+           '1' after 120 ns,
+           '0' after 240 ns; 
+			 
+end architecture;
