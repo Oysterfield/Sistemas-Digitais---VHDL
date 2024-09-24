@@ -1,0 +1,58 @@
+-- PASSO 0
+-- Descrição do comportamento por algoritmo
+--
+-- L01: int Fibonacci (int n)
+-- L02:   if (n<=2)
+-- L03: 		 return 1;
+-- L04: 	 int i = 3; 
+-- L05:	 int primeiro = 1;
+--	L06:	 int segundo = 1;
+-- L07:   int soma;
+-- L08:	 while (i<n)
+-- L09:		 soma = primeiro + segundo;
+-- L10: 		 primeiro = segundo;
+-- L11:		 segundo = soma:
+-- L12:		 i++;	
+-- L13:	 return soma;
+--
+-- Entradas: int n
+-- Saídas:   int nElemento
+--
+-- Operaçoes: 
+-- L02: 		 n<=2   				==>       		 SttNleq2   (Status n less equal than 2)
+-- L04: 	 	 int i = 3;  ==>       				 cmdI3    
+-- L05:		 int primeiro = 1; ==> 				 cmdPrin1
+--	L06:		 int segundo = 1; ==>  				 cmdSeg1
+-- L08:		 while (i<n)  ==>                 sttI1eqN
+-- L09:		 soma = primeiro + segundo;  ==>  cmdSomaPrimPlusSeg
+-- L10: 		 primeiro = segundo;  ==>			 cmdPrimSeg
+-- L11:		 segundo = soma:   ==>		 		 cmdSegSoma
+-- L12:		 i++;    ==>      					 cmdIinc
+
+
+-- 
+
+library ieee;
+use ieee.std_logic_1164.all
+
+entity SistemaDigitalFibonacci is
+	port(
+		);
+end entity;
+
+architecture estrutural of SistemaDigitalFibonacci is
+component BlocoControle is
+	port(clock, reset: in std_logic;
+		-- controle externo
+		iniciar: in std_logic;
+		pronto: out std_logic;
+		-- controle interno
+		sttNleq2, sttI1eqN: in std_logic;
+		cmdI3, cmdIinc, cmdPrin1, cmdPrimSeg,
+		cmdSeg1, cmdSegSoma, cmdSomaPrimPlusSeg: out std_logic
+	);
+end component;
+begin
+	
+
+end architecture;
